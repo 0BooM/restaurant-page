@@ -13,53 +13,30 @@
         <button>About</button>
       </nav>
     </header>
-    <div id="content"></div>
+    <div id="content">
+      <!-- <div class="menu">
+        <h1>Restaurant menu</h1>
+        <p>
+          These are the dishes we serve. Our menu is not big, but the quality
+          plays role here
+        </p>
+
+        <h2>Burgers:</h2>
+        <p>Cheeseburger - 5$</p>
+        <p>BIG Mike - 10$</p>
+        <p>Chicker - 7$</p>
+        <p>Vegan Burger - 5$</p>
+
+        <h2>Side dish:</h2>
+        <p>Potato Fries - 3$</p>
+        <p>Sweet Potato Fries - 4$</p>
+
+        <h2>Sodas (Every soda cost 4$):</h2>
+        <p>Pepsi</p>
+        <p>Coca-cola</p>
+        <p>Fanta</p>
+        <p>Sprite</p>
+      </div> -->
+    </div>
   </body>
 </html>
-
-<!-- import "./style.css";
-import burgerImageSrc from "./img/blackBurger.jpg";
-
-export default function loadHomePage() {
-  const content = document.querySelector("#content");
-
-  const burgerImg = document.createElement("img");
-  burgerImg.src = burgerImageSrc;
-  burgerImg.alt = "A delicious black burger";
-
-  const imgWelcomeSection = document.createElement("div");
-  imgWelcomeSection.classList.add("img-welcome-section");
-
-  const infoDiv = document.createElement("div");
-  infoDiv.classList.add("info-div");
-
-  const restaurantName = document.createElement("h1");
-  restaurantName.textContent = "BurgerHouse";
-
-  const restaurantDesc = document.createElement("h2");
-  restaurantDesc.classList.add("restaurant-desc");
-  restaurantDesc.innerHTML = `Our restaurant is a place for a real burger lowers!<br /><br />
-            Here you will find excellent taste, backed by excellent quality
-            products.`;
-  infoDiv.appendChild(restaurantName);
-  infoDiv.appendChild(restaurantDesc);
-
-  imgWelcomeSection.appendChild(burgerImg);
-  imgWelcomeSection.appendChild(infoDiv);
-
-  const hoursDiv = document.createElement("div");
-  hoursDiv.classList.add("hours");
-  let html =
-    '<h2 class="opening-hours">Opening hours</h2><p>Monday: 12:00 - 18:00</p><p>Tuesday: 12:00 - 18:00</p><p>Wednesday: 12:00 - 18:00</p><p>Thursday: 12:00 - 18:00</p><p>Friday: 12:00 - 22:00</p><p>Saturday: 10:00 - 24:00</p><p>Sunday: 10:00 - 18:00</p>';
-  hoursDiv.insertAdjacentHTML("afterbegin", html);
-
-  const locationInfo = document.createElement("div");
-  locationInfo.classList.add("location-info");
-  const locationPara = document.createElement("p");
-  locationPara.textContent = "We are located on: 132 Los Pollos Avenue, Texas";
-  locationInfo.appendChild(locationPara);
-
-  content.appendChild(imgWelcomeSection);
-  content.appendChild(hoursDiv);
-  content.appendChild(locationInfo);
-} -->
