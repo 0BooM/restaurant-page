@@ -149,3 +149,9 @@ nav .buttons *:active {
 .contact {
   background-color: #2b415f;
 }
+
+body footer {
+  color: red;
+  margin-top: 5rem;
+  text-align: center;
+}
