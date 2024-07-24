@@ -71,3 +71,24 @@ body nav {
   text-align: center;
   font-size: 2rem;
 }
+
+.menu {
+  background-color: #1b222c;
+  text-align: center;
+  padding: 2rem 0;
+}
+.menu h1 {
+  font-size: 4rem;
+  margin-bottom: 0.3rem;
+  margin-top: 0.3rem;
+}
+.menu p {
+  font-size: 2rem;
+  margin-bottom: 0.3rem;
+}
+
+.menu h2 {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-top: 4rem;
+}
