@@ -23,7 +23,39 @@ body {
 }
 
 body nav {
-  padding: 3rem 1rem;
+  padding: 2rem 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo {
+  font-weight: bold;
+  font-size: 3.6rem;
+}
+
+nav .buttons {
+  width: 25%;
+  gap: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+nav .buttons * {
+  font-size: 2rem;
+  font-weight: bold;
+  border: none;
+  color: white;
+  background-color: #334155;
+  text-decoration: underline;
+  text-underline-offset: 0.6rem;
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+nav .buttons *:hover {
+  color: rgb(156, 156, 156);
+}
+nav .buttons *:active {
+  color: rgb(83, 83, 83);
 }
 
 .img-welcome-section {
