@@ -35,7 +35,7 @@ body nav {
 }
 
 .img-welcome-section img {
-  width: max(45%, 300px);
+  width: max(45%, 200px);
   height: 250px;
   object-fit: cover;
 }
