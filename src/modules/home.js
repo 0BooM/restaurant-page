@@ -1,6 +1,5 @@
-import "./style.css";
-import burgerImageSrc from "./img/blackBurger.jpg";
-
+import ".././style.css";
+import burgerImageSrc from "../img/blackBurger.jpg";
 export default function loadHomePage() {
   const content = document.querySelector("#content");
 
