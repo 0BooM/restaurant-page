@@ -1,2 +1,2 @@
 import "./style.css";
-console.log("Kurdwsass");
+import blackBurger from "./img/blackBurger.jpg";
